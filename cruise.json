@@ -1,0 +1,1182 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_id": "hbwcai-beatles-cruise-demo-2027",
+  "data_type": "ai_readable_event_and_commerce_feed",
+  "project": {
+    "name": "HBWCAI",
+    "tagline": "All You Need Is Love. And One Link.",
+    "description": "Helsinki Beatles Weekend -henkinen konseptidemo: yksi linkki tuo risteilyn ohjelman ja tarjonnan matkustajan omaan AI:hin.",
+    "concept": "AI-first guest information and offer feed, not a chatbot."
+  },
+  "demo_notice": {
+    "is_demo": true,
+    "status": "FICTIONAL_CONCEPT_NOT_A_REAL_CRUISE_PROGRAM",
+    "message_fi": "HUOM: Tämä on konseptidemo. Vuoden 2027 risteily, kaikki ohjelma-ajat, tilat, hinnat, tuotteet, tarjoukset ja esiintyjien 2027 osallistuminen ovat keksittyjä eikä niitä voi varata tai ostaa.",
+    "message_en": "DEMO ONLY. The 2027 event, all times, venues, prices, offers and 2027 performer appearances are fictional and cannot be booked or purchased.",
+    "not_official_viking_line_publication": true,
+    "not_official_beatles_publication": true,
+    "commercial_offers_are_real": false
+  },
+  "event": {
+    "id": "hbw-beatles-cruise-vol6-demo-2027",
+    "name": "The Beatles Cruise Vol. 6 — HBWCAI DEMO",
+    "subtitle": "Enemmän Beatlesiä – Enemmän Rakkautta",
+    "description_fi": "Kuvitteellinen kolmen päivän Beatles-faniristeily Helsingistä Tukholmaan. Live-tributeja, Beatles-historiaa, Abbey Road -kuuntelua, fanitapaamisia, tietovisoja ja Beatles-aiheisia tarjouksia. Jokainen keskustelu voi muuttua henkilökohtaiseksi matkasuunnitelmaksi oman AI:n avulla.",
+    "description_en": "A fictional three-day Beatles fan cruise from Helsinki to Stockholm, with live tributes, Beatles history, Abbey Road listening sessions, fan meetups, quizzes and themed offers.",
+    "category": [
+      "music",
+      "fan_cruise",
+      "beatles",
+      "tribute"
+    ],
+    "language_codes": [
+      "fi",
+      "sv",
+      "en"
+    ],
+    "starts_at": "2027-09-24T17:00:00+03:00",
+    "ends_at": "2027-09-26T16:00:00+03:00",
+    "timezone": "Europe/Helsinki",
+    "time_format": "ISO 8601, UTC+03:00 in all event entries; Stockholm local time is different.",
+    "ship": "Viking Cinderella (illustrative, NOT confirmed for 2027)",
+    "route": [
+      "Helsinki",
+      "Stockholm",
+      "Helsinki"
+    ],
+    "route_status": "fictional_demo",
+    "organizer_brand_inspiration": "Helsinki Beatles Weekend",
+    "audience": [
+      "Beatles fans",
+      "music enthusiasts",
+      "couples",
+      "friend groups",
+      "families"
+    ],
+    "age_policy": "Oikeat ikärajat ja pääsyehdot tarkistettava matkanjärjestäjältä. Demo ei vahvista ikärajoja.",
+    "booking_url": null,
+    "check_in_details": null,
+    "accessibility": "Todelliset esteettömyystiedot kysyttävä varustamolta.",
+    "safety_note": "Turvallisuusohjeet, poikkeustilanteet ja laivan oikeat tilat: noudata miehistön ohjeita."
+  },
+  "historical_inspiration": {
+    "event": "Beatles-risteily Vol. 5",
+    "dates": [
+      "2026-09-25",
+      "2026-09-27"
+    ],
+    "ship": "Viking Cinderella",
+    "route": "Helsinki–Tukholma–Helsinki",
+    "performers_2026": [
+      "Jiri Nikkinen The Beatles Tribute Band",
+      "Jay Goeppner & The Urban Crow",
+      "The Beat Brothers",
+      "Hitmen Beatlemania"
+    ],
+    "special_guest_2026": "Freda Kelly",
+    "source_urls": [
+      "https://www.beatlesweekend.fi/en/",
+      "https://www.vikingline.fi/beatles",
+      "https://www.vikingline.ax/kryssning/nojeskryssningar/beatles-kryssning/"
+    ],
+    "note": "Vuoden 2026 lähdetieto ei ole vahvistus tulevasta vuoden 2027 ohjelmasta."
+  },
+  "places": [
+    {
+      "id": "main-stage",
+      "name": "Sgt. Pepper's Main Stage",
+      "deck": "Demo: kansi 10",
+      "kind": "concert_stage",
+      "capacity_note": "Paikkoja rajoitetusti; ei oikea laivan tilanimi."
+    },
+    {
+      "id": "cavern-club",
+      "name": "Cavern Club Pop-up",
+      "deck": "Demo: kansi 8",
+      "kind": "club",
+      "capacity_note": "Kuvitteellinen Beatles-teemainen pop-up."
+    },
+    {
+      "id": "abbey-lounge",
+      "name": "Abbey Road Lounge",
+      "deck": "Demo: kansi 9",
+      "kind": "lounge"
+    },
+    {
+      "id": "penny-lane",
+      "name": "Penny Lane Café",
+      "deck": "Demo: kansi 7",
+      "kind": "cafe"
+    },
+    {
+      "id": "yellow-bar",
+      "name": "Yellow Submarine Bar",
+      "deck": "Demo: kansi 8",
+      "kind": "bar"
+    },
+    {
+      "id": "strawberry-dining",
+      "name": "Strawberry Fields Dining",
+      "deck": "Demo: kansi 7",
+      "kind": "restaurant"
+    },
+    {
+      "id": "beatles-market",
+      "name": "Beatles Pop-up Shop",
+      "deck": "Demo: kansi 7",
+      "kind": "shop"
+    }
+  ],
+  "performers": [
+    {
+      "id": "artist-jiri",
+      "name": "Jiri Nikkinen The Beatles Tribute Band",
+      "type": "tribute_band",
+      "origin": "Finland",
+      "genres": [
+        "early_beatles",
+        "rock_and_roll",
+        "merseybeat"
+      ],
+      "historical_2026_participant": true,
+      "demo_2027_booking_confirmed": false,
+      "description": "Vuoden 2026 risteilyllä mukana ollut suomalainen Beatles-tribuuttiyhtye. Tässä vuoden 2027 konseptidemossa mukana vain havainnollistavana esiintyjänä."
+    },
+    {
+      "id": "artist-jay",
+      "name": "Jay Goeppner & The Urban Crow",
+      "type": "tribute_band",
+      "origin": "USA / Finland",
+      "genres": [
+        "beatles",
+        "rock",
+        "vocal_harmonies"
+      ],
+      "historical_2026_participant": true,
+      "demo_2027_booking_confirmed": false,
+      "description": "Vuoden 2026 tapahtuman esiintyjä; vuoden 2027 esiintyminen on kuvitteellinen demon osa."
+    },
+    {
+      "id": "artist-beatbrothers",
+      "name": "The Beat Brothers",
+      "type": "tribute_band",
+      "origin": "Finland",
+      "genres": [
+        "beatles",
+        "dance",
+        "1960s"
+      ],
+      "historical_2026_participant": true,
+      "demo_2027_booking_confirmed": false,
+      "description": "Vuoden 2026 esiintyjä; demon vuoden 2027 esiintyminen ei ole vahvistettu."
+    },
+    {
+      "id": "artist-hitmen",
+      "name": "Hitmen Beatlemania",
+      "type": "tribute_band",
+      "origin": "Sweden",
+      "genres": [
+        "beatles",
+        "classic_pop",
+        "rock"
+      ],
+      "historical_2026_participant": true,
+      "demo_2027_booking_confirmed": false,
+      "description": "Vuoden 2026 risteilyn ruotsalainen esiintyjä; vuoden 2027 esiintyminen on demoon keksitty."
+    },
+    {
+      "id": "artist-hbwc-host",
+      "name": "HBWC Fan Club Host (demo)",
+      "type": "host",
+      "origin": "Finland",
+      "genres": [
+        "beatles_history",
+        "fan_community"
+      ],
+      "historical_2026_participant": false,
+      "demo_2027_booking_confirmed": false,
+      "description": "Kuvitteellinen juontaja ja Beatles-tietovisojen vetäjä."
+    }
+  ],
+  "schedule": [
+    {
+      "id": "ev-001",
+      "title": "Come Together – fanien tervetulotilaisuus",
+      "starts_at": "2027-09-24T17:30:00+03:00",
+      "ends_at": "2027-09-24T18:00:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "abbey-lounge",
+      "category": "fan_meet",
+      "artist_ids": [],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "community",
+        "welcome",
+        "low_volume"
+      ],
+      "description": "Tapaa muut fanit, tutustu viikonlopun Beatles-ohjelmaan ja löydä oma faniporukkasi.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-002",
+      "title": "Please Please Me – varhaisten vuosien keikka",
+      "starts_at": "2027-09-24T18:30:00+03:00",
+      "ends_at": "2027-09-24T19:30:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "main-stage",
+      "category": "concert",
+      "artist_ids": [
+        "artist-beatbrothers"
+      ],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "live",
+        "early_beatles",
+        "singalong"
+      ],
+      "description": "Kuvitteellinen keikka, jossa kuullaan erityisesti Beatlesin alkukauden kappaleita.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-003",
+      "title": "Beatles & Bites – illallinen",
+      "starts_at": "2027-09-24T19:30:00+03:00",
+      "ends_at": "2027-09-24T21:00:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "strawberry-dining",
+      "category": "food",
+      "artist_ids": [],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "dinner",
+        "vegetarian_options",
+        "offer_available"
+      ],
+      "description": "Beatles-teemainen illallinen; näe tarjous offer-001.",
+      "audience": "all",
+      "entry": "demo_non_bookable",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-004",
+      "title": "Beatles Bingo – tunnista biisi kolmesta sekunnista",
+      "starts_at": "2027-09-24T20:15:00+03:00",
+      "ends_at": "2027-09-24T21:00:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "cavern-club",
+      "category": "quiz",
+      "artist_ids": [
+        "artist-hbwc-host"
+      ],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "quiz",
+        "social",
+        "interactive"
+      ],
+      "description": "Beatles-kappaleiden alkutahdeista tunnistuskisa. Leikkimielinen palkinto.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-005",
+      "title": "A Hard Day's Night – Friday Rock Show",
+      "starts_at": "2027-09-24T21:30:00+03:00",
+      "ends_at": "2027-09-24T22:45:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "main-stage",
+      "category": "concert",
+      "artist_ids": [
+        "artist-jiri"
+      ],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "live",
+        "rock",
+        "singalong",
+        "popular"
+      ],
+      "description": "Sähköistä Beatles-rockia, yhteislaulua ja 60-luvun tunnelmaa.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-006",
+      "title": "The Cavern After Midnight",
+      "starts_at": "2027-09-24T23:00:00+03:00",
+      "ends_at": "2027-09-24T23:59:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "cavern-club",
+      "category": "party",
+      "artist_ids": [],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "dance",
+        "late_night",
+        "singalong"
+      ],
+      "description": "Beatles-only tanssi-ilta, soittolistalla vain Fab Fouria.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-007",
+      "title": "Good Morning, Good Morning – aamukahvi",
+      "starts_at": "2027-09-25T08:30:00+03:00",
+      "ends_at": "2027-09-25T09:30:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "penny-lane",
+      "category": "food",
+      "artist_ids": [],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "breakfast",
+        "coffee",
+        "quiet",
+        "offer_available"
+      ],
+      "description": "Rauhallinen Beatles-aamukahvi, päivän ohjelmasuositukset ja fanitapaamisia.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-008",
+      "title": "The Beatles Story – Liverpoolista maailmalle",
+      "starts_at": "2027-09-25T09:45:00+03:00",
+      "ends_at": "2027-09-25T10:30:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "abbey-lounge",
+      "category": "talk",
+      "artist_ids": [
+        "artist-hbwc-host"
+      ],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "history",
+        "talk",
+        "seated",
+        "quiet"
+      ],
+      "description": "Kuvitteellinen Beatles-historialuento: Cavern Club, Hamburgin vuodet ja läpimurto.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-009",
+      "title": "Abbey Road -levyn kuuntelupiiri",
+      "starts_at": "2027-09-25T10:45:00+03:00",
+      "ends_at": "2027-09-25T11:30:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "abbey-lounge",
+      "category": "listening",
+      "artist_ids": [],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "abbey_road",
+        "album",
+        "music_nerds",
+        "quiet"
+      ],
+      "description": "Kappaleet, studiokikat ja Abbey Roadin B-puolen medley – keskustele muiden fanien kanssa.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-010",
+      "title": "Help! – Beatles-triviakarsinta",
+      "starts_at": "2027-09-25T11:30:00+03:00",
+      "ends_at": "2027-09-25T12:15:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "cavern-club",
+      "category": "quiz",
+      "artist_ids": [
+        "artist-hbwc-host"
+      ],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "quiz",
+        "interactive",
+        "knowledge"
+      ],
+      "description": "Yksityiskohtia Beatlesin levyistä, soittimista ja historiasta.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-011",
+      "title": "Here Comes the Sun – akustinen Beatles",
+      "starts_at": "2027-09-25T12:30:00+03:00",
+      "ends_at": "2027-09-25T13:20:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "cavern-club",
+      "category": "concert",
+      "artist_ids": [
+        "artist-jay"
+      ],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "acoustic",
+        "live",
+        "melodic",
+        "midday"
+      ],
+      "description": "Herkkä päiväkonsertti Beatlesin akustisista helmistä.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-012",
+      "title": "All You Need Is Love – yhteislaulutyöpaja",
+      "starts_at": "2027-09-25T13:30:00+03:00",
+      "ends_at": "2027-09-25T14:15:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "abbey-lounge",
+      "category": "workshop",
+      "artist_ids": [],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "singalong",
+        "beginner_friendly",
+        "interactive"
+      ],
+      "description": "Rento yhteislaulu, kaikki laulutaidot tervetulleita.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-013",
+      "title": "Beatles-muistot ja fanitarinat",
+      "starts_at": "2027-09-25T14:30:00+03:00",
+      "ends_at": "2027-09-25T15:15:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "abbey-lounge",
+      "category": "fan_meet",
+      "artist_ids": [
+        "artist-hbwc-host"
+      ],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "community",
+        "nostalgia",
+        "quiet"
+      ],
+      "description": "Fanit jakavat muistoja konserteista, levyistä ja omasta Beatles-suhteestaan.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-014",
+      "title": "Yellow Submarine – perheiden yhteinen biisihetki",
+      "starts_at": "2027-09-25T15:30:00+03:00",
+      "ends_at": "2027-09-25T16:10:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "cavern-club",
+      "category": "family",
+      "artist_ids": [],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "family_friendly",
+        "children",
+        "singalong"
+      ],
+      "description": "Beatles-teemainen perhehetki, mukana tuttuja melodioita ja askartelua. Ei lastenhoitopalvelu.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-015",
+      "title": "Revolver vs. Rubber Soul – fanidebatti",
+      "starts_at": "2027-09-25T16:15:00+03:00",
+      "ends_at": "2027-09-25T17:00:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "abbey-lounge",
+      "category": "talk",
+      "artist_ids": [],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "albums",
+        "history",
+        "discussion",
+        "music_nerds"
+      ],
+      "description": "Kumpi muutti popmusiikkia enemmän? Fanien ystävällinen väittely.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-016",
+      "title": "Sgt. Pepper's Dinner – fanipöytä",
+      "starts_at": "2027-09-25T18:00:00+03:00",
+      "ends_at": "2027-09-25T19:30:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "strawberry-dining",
+      "category": "food",
+      "artist_ids": [],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "dinner",
+        "social",
+        "offer_available"
+      ],
+      "description": "Teemaillallinen ja mahdollisuus yhteispöytään muiden Beatles-fanien kanssa.",
+      "audience": "all",
+      "entry": "demo_non_bookable",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-017",
+      "title": "Beatles Cruise Guitar Hour",
+      "starts_at": "2027-09-25T18:30:00+03:00",
+      "ends_at": "2027-09-25T19:20:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "cavern-club",
+      "category": "workshop",
+      "artist_ids": [],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "guitar",
+        "musicians",
+        "interactive"
+      ],
+      "description": "Sointukierrot, harmonisointi ja mitä Beatles-kappaleet opettavat kitaristille.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-018",
+      "title": "Magical Mystery Tour – Beatles Greatest Hits",
+      "starts_at": "2027-09-25T20:00:00+03:00",
+      "ends_at": "2027-09-25T21:15:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "main-stage",
+      "category": "concert",
+      "artist_ids": [
+        "artist-hitmen"
+      ],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "live",
+        "headliner",
+        "popular",
+        "singalong"
+      ],
+      "description": "Kuvitteellinen Beatles-hittikonsertti, 60-luvun lavashow ja mukana laulavat fanit.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-019",
+      "title": "Golden Slumbers – Abbey Road Medley Live",
+      "starts_at": "2027-09-25T21:45:00+03:00",
+      "ends_at": "2027-09-25T22:30:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "main-stage",
+      "category": "concert",
+      "artist_ids": [
+        "artist-jay"
+      ],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "live",
+        "abbey_road",
+        "medley",
+        "music_nerds"
+      ],
+      "description": "Abbey Roadin loppupuolen medley – illan erikoisnumero.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-020",
+      "title": "Twist and Shout – Beatles Dance Party",
+      "starts_at": "2027-09-25T22:45:00+03:00",
+      "ends_at": "2027-09-25T23:59:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "cavern-club",
+      "category": "party",
+      "artist_ids": [],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "dance",
+        "late_night",
+        "1960s",
+        "high_energy"
+      ],
+      "description": "Kaikki Beatlesin tanssittavimmat kappaleet, ei muuta musiikkia.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-021",
+      "title": "Across the Universe – sunnuntain aamusoitto",
+      "starts_at": "2027-09-26T09:00:00+03:00",
+      "ends_at": "2027-09-26T09:45:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "abbey-lounge",
+      "category": "listening",
+      "artist_ids": [],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "quiet",
+        "acoustic",
+        "reflection"
+      ],
+      "description": "Beatlesin rauhallisemmat kappaleet aamukahvin kanssa.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-022",
+      "title": "The Beatles Rarities – harvinaisuudet ja B-puolet",
+      "starts_at": "2027-09-26T10:15:00+03:00",
+      "ends_at": "2027-09-26T11:00:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "abbey-lounge",
+      "category": "talk",
+      "artist_ids": [
+        "artist-hbwc-host"
+      ],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "deep_cuts",
+        "collectors",
+        "music_nerds"
+      ],
+      "description": "Albumien ulkopuolisia helmiä, singlejen B-puolia ja harvinaisuuksia.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-023",
+      "title": "Beatles-tietovisan finaali",
+      "starts_at": "2027-09-26T11:30:00+03:00",
+      "ends_at": "2027-09-26T12:15:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "cavern-club",
+      "category": "quiz",
+      "artist_ids": [
+        "artist-hbwc-host"
+      ],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "quiz",
+        "finale",
+        "prizes"
+      ],
+      "description": "Tietokilpailun loppuhuipennus, leikilliset Beatles-aiheiset palkinnot.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-024",
+      "title": "The Long and Winding Road – jäähyväiskonsertti",
+      "starts_at": "2027-09-26T13:00:00+03:00",
+      "ends_at": "2027-09-26T14:00:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "main-stage",
+      "category": "concert",
+      "artist_ids": [
+        "artist-beatbrothers",
+        "artist-jiri"
+      ],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "concert",
+        "finale",
+        "singalong",
+        "popular"
+      ],
+      "description": "Risteilyn päätöskonsertti, Beatlesin suurimmat yhteislaulukappaleet.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    },
+    {
+      "id": "ev-025",
+      "title": "Hello Goodbye – viimeiset fanikuvat",
+      "starts_at": "2027-09-26T14:10:00+03:00",
+      "ends_at": "2027-09-26T14:40:00+03:00",
+      "timezone": "Europe/Helsinki",
+      "venue_id": "abbey-lounge",
+      "category": "fan_meet",
+      "artist_ids": [],
+      "price_eur": 0,
+      "included_in_cruise": true,
+      "tags": [
+        "community",
+        "farewell"
+      ],
+      "description": "Vaihtakaa yhteystietoja ja sopikaa seuraavat fanitapaamiset.",
+      "audience": "all",
+      "entry": "walk_in",
+      "capacity_note": null,
+      "status": "fictional_demo"
+    }
+  ],
+  "offers": [
+    {
+      "id": "offer-001",
+      "title": "Sgt. Pepper's Lonely Hearts Dinner",
+      "category": "restaurant",
+      "location_id": "strawberry-dining",
+      "description": "Kuvitteellinen kolmen ruokalajin Beatles-illallinen.",
+      "price": {
+        "currency": "EUR",
+        "amount": 39.9,
+        "regular_amount": 49.9,
+        "per": "person",
+        "vat_included": true
+      },
+      "valid_from": "2027-09-24T18:00:00+03:00",
+      "valid_until": "2027-09-25T21:00:00+03:00",
+      "terms": [
+        "Rajoitettu määrä paikkoja",
+        "Ei yhdistettävissä muihin alennuksiin",
+        "Erityisruokavaliot kysyttävä henkilökunnalta"
+      ],
+      "target_interests": [
+        "food",
+        "dinner",
+        "couples"
+      ],
+      "reservation_required": true,
+      "redemption": "Näytä demo-etu henkilökunnalle vain testitilanteessa. Ei oikea myytävä tuote.",
+      "availability": "not_connected"
+    },
+    {
+      "id": "offer-002",
+      "title": "Penny Lane Lemonade",
+      "category": "non_alcoholic_drink",
+      "location_id": "yellow-bar",
+      "description": "Sitruunaa, rosmariinia ja inkivääriä – alkoholiton Beatles-virkistys.",
+      "price": {
+        "currency": "EUR",
+        "amount": 5.9,
+        "regular_amount": 7.9,
+        "per": "glass",
+        "vat_included": true
+      },
+      "valid_from": "2027-09-24T17:00:00+03:00",
+      "valid_until": "2027-09-26T15:00:00+03:00",
+      "terms": [
+        "Alkoholiton",
+        "Esimerkkituote, ei oikeasti myynnissä"
+      ],
+      "target_interests": [
+        "family",
+        "drinks",
+        "non_alcoholic"
+      ],
+      "reservation_required": false,
+      "redemption": "Demo",
+      "availability": "not_connected"
+    },
+    {
+      "id": "offer-003",
+      "title": "Strawberry Fields Forever",
+      "category": "cocktail",
+      "location_id": "yellow-bar",
+      "description": "Mansikkaa, limettiä ja kuplia sisältävä kuvitteellinen teemacocktail.",
+      "price": {
+        "currency": "EUR",
+        "amount": 10.9,
+        "regular_amount": 13.9,
+        "per": "glass",
+        "vat_included": true
+      },
+      "valid_from": "2027-09-24T19:00:00+03:00",
+      "valid_until": "2027-09-26T01:00:00+03:00",
+      "terms": [
+        "Sisältää alkoholia",
+        "Vain täysi-ikäisille; henkilökunnan ikärajat ja anniskelusäännöt pätevät",
+        "Esimerkkitarjous"
+      ],
+      "target_interests": [
+        "cocktails",
+        "nightlife"
+      ],
+      "reservation_required": false,
+      "redemption": "Demo",
+      "availability": "not_connected"
+    },
+    {
+      "id": "offer-004",
+      "title": "Yellow Submarine Mocktail",
+      "category": "non_alcoholic_drink",
+      "location_id": "yellow-bar",
+      "description": "Ananas, passionhedelmä, sitruuna ja keltainen ilme. Kaikille sopiva alkoholiton vaihtoehto.",
+      "price": {
+        "currency": "EUR",
+        "amount": 6.5,
+        "regular_amount": 8.5,
+        "per": "glass",
+        "vat_included": true
+      },
+      "valid_from": "2027-09-24T17:00:00+03:00",
+      "valid_until": "2027-09-26T15:00:00+03:00",
+      "terms": [
+        "Alkoholiton",
+        "Demo"
+      ],
+      "target_interests": [
+        "family",
+        "mocktails"
+      ],
+      "reservation_required": false,
+      "redemption": "Demo",
+      "availability": "not_connected"
+    },
+    {
+      "id": "offer-005",
+      "title": "Octopus's Garden Fish & Chips",
+      "category": "restaurant",
+      "location_id": "penny-lane",
+      "description": "Beatles-henkinen fish & chips -annos sekä alkoholiton virvoitusjuoma.",
+      "price": {
+        "currency": "EUR",
+        "amount": 15.9,
+        "regular_amount": 20.9,
+        "per": "meal",
+        "vat_included": true
+      },
+      "valid_from": "2027-09-25T11:00:00+03:00",
+      "valid_until": "2027-09-25T16:00:00+03:00",
+      "terms": [
+        "Sisältää kalaa ja gluteenia; tarkista allergiat henkilökunnalta",
+        "Demo"
+      ],
+      "target_interests": [
+        "lunch",
+        "food",
+        "family"
+      ],
+      "reservation_required": false,
+      "redemption": "Demo",
+      "availability": "not_connected"
+    },
+    {
+      "id": "offer-006",
+      "title": "All You Need Is Love – fanikahvit kahdelle",
+      "category": "cafe",
+      "location_id": "penny-lane",
+      "description": "Kaksi kahvia tai teetä sekä kaksi Beatles-kuppikakkua.",
+      "price": {
+        "currency": "EUR",
+        "amount": 12.9,
+        "regular_amount": 17.9,
+        "per": "two_people",
+        "vat_included": true
+      },
+      "valid_from": "2027-09-25T08:00:00+03:00",
+      "valid_until": "2027-09-26T14:00:00+03:00",
+      "terms": [
+        "Demo",
+        "Allergeenit tarkistettava henkilökunnalta"
+      ],
+      "target_interests": [
+        "coffee",
+        "dessert",
+        "couples"
+      ],
+      "reservation_required": false,
+      "redemption": "Demo",
+      "availability": "not_connected"
+    },
+    {
+      "id": "offer-007",
+      "title": "Abbey Road Collector Pack",
+      "category": "merchandise",
+      "location_id": "beatles-market",
+      "description": "Kuvitteellinen fanipaketti: muistivihko, kangasmerkki ja teemajuliste.",
+      "price": {
+        "currency": "EUR",
+        "amount": 19.9,
+        "regular_amount": 27.9,
+        "per": "pack",
+        "vat_included": true
+      },
+      "valid_from": "2027-09-24T17:00:00+03:00",
+      "valid_until": "2027-09-26T14:00:00+03:00",
+      "terms": [
+        "Kuvitteellinen tuote; ei virallista Beatles-lisenssiä",
+        "Demo"
+      ],
+      "target_interests": [
+        "collecting",
+        "souvenirs",
+        "merchandise"
+      ],
+      "reservation_required": false,
+      "redemption": "Demo",
+      "availability": "not_connected"
+    },
+    {
+      "id": "offer-008",
+      "title": "Let It Be – alkoholittomien juomien duo",
+      "category": "non_alcoholic_drink",
+      "location_id": "yellow-bar",
+      "description": "Kaksi valitsemaasi alkoholitonta Beatles-teemadrinkkiä yhteishintaan.",
+      "price": {
+        "currency": "EUR",
+        "amount": 10.9,
+        "regular_amount": 15.8,
+        "per": "two_glasses",
+        "vat_included": true
+      },
+      "valid_from": "2027-09-24T17:00:00+03:00",
+      "valid_until": "2027-09-26T01:00:00+03:00",
+      "terms": [
+        "Alkoholiton",
+        "Demo"
+      ],
+      "target_interests": [
+        "non_alcoholic",
+        "friends",
+        "family"
+      ],
+      "reservation_required": false,
+      "redemption": "Demo",
+      "availability": "not_connected"
+    },
+    {
+      "id": "offer-009",
+      "title": "Come Together – fanipöytä neljälle",
+      "category": "restaurant",
+      "location_id": "strawberry-dining",
+      "description": "Neljä fanimenuuta samaan yhteispöytään, demoetu ryhmälle.",
+      "price": {
+        "currency": "EUR",
+        "amount": 139.0,
+        "regular_amount": 179.6,
+        "per": "four_people",
+        "vat_included": true
+      },
+      "valid_from": "2027-09-25T18:00:00+03:00",
+      "valid_until": "2027-09-25T21:00:00+03:00",
+      "terms": [
+        "Yksi neljän hengen ryhmä",
+        "Ennakkovaraus demossa ei käytettävissä",
+        "Demo"
+      ],
+      "target_interests": [
+        "group",
+        "dinner",
+        "community"
+      ],
+      "reservation_required": true,
+      "redemption": "Demo",
+      "availability": "not_connected"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Mitä Beatles-risteilyllä tapahtuu?",
+      "answer": "Kolmipäiväisessä kuvitteellisessa Beatles Cruise 2027 -risteilydemossa on tribute-konsertteja, historiaesityksiä, tietovisoja, kuuntelupiirejä, yhteislaulua ja Beatles-aiheisia ruoka- ja juomatarjouksia.",
+      "source_type": "fictional_demo"
+    },
+    {
+      "question": "Voinko nähdä kaikki konsertit?",
+      "answer": "Konserttien ajat ovat schedule-listassa. Osa ohjelmista menee päällekkäin; pyydä AI:ta rakentamaan oma aikataulu kiinnostuksiesi perusteella.",
+      "source_type": "fictional_demo"
+    },
+    {
+      "question": "Mikä ohjelma sopii Abbey Road -fanille?",
+      "answer": "Erityisesti lauantain Abbey Road -kuuntelupiiri klo 10.45 ja Golden Slumbers -medley klo 21.45.",
+      "source_type": "fictional_demo"
+    },
+    {
+      "question": "Onko alkoholitonta Beatles-drinkkiä?",
+      "answer": "Kyllä, demotarjouksissa Penny Lane Lemonade, Yellow Submarine Mocktail ja Let It Be -alkoholittomien juomien duo.",
+      "source_type": "fictional_demo"
+    },
+    {
+      "question": "Mistä tiedän oikeat hinnat ja saatavuuden?",
+      "answer": "Tämän demon tarjoukset eivät ole oikeasti myynnissä. Todelliset hinnat ja varaukset on tarkistettava järjestäjältä tai varustamolta.",
+      "source_type": "safety_and_accuracy"
+    },
+    {
+      "question": "Saanko varata pöydän tekoälyllä?",
+      "answer": "Tässä kokeilussa en. Varausrajapintaa ei ole liitetty. AI voi auttaa suunnittelemaan mutta ei vahvistaa varauksia.",
+      "source_type": "demo_capability"
+    },
+    {
+      "question": "Missä lähin hätäpoistumistie on?",
+      "answer": "Demo ei tunne oikeita hätäpoistumisteitä eikä turvallisuusjärjestelyjä. Noudata laivan merkintöjä ja miehistön ohjeita.",
+      "source_type": "safety_and_accuracy"
+    },
+    {
+      "question": "Voitko antaa päivän parhaat tarjoukset?",
+      "answer": "Kyllä, demo voi suodattaa tarjoukset päiväyksen, ajan, ruokavaliotoiveiden ja kiinnostuksen mukaan. Tarjoukset eivät ole voimassa todellisessa laivassa.",
+      "source_type": "fictional_demo"
+    }
+  ],
+  "recommendation_examples": [
+    {
+      "profile": "Beatles-keräilijä, kiinnostus harvinaisuuksiin",
+      "suggested_event_ids": [
+        "ev-009",
+        "ev-015",
+        "ev-019",
+        "ev-022"
+      ],
+      "suggested_offer_ids": [
+        "offer-007"
+      ]
+    },
+    {
+      "profile": "Pariskunta, romanttinen illallinen ja parhaat hitit",
+      "suggested_event_ids": [
+        "ev-003",
+        "ev-018",
+        "ev-021"
+      ],
+      "suggested_offer_ids": [
+        "offer-001",
+        "offer-006"
+      ]
+    },
+    {
+      "profile": "Lapsiperhe, ei alkoholia",
+      "suggested_event_ids": [
+        "ev-014",
+        "ev-023",
+        "ev-024"
+      ],
+      "suggested_offer_ids": [
+        "offer-002",
+        "offer-004",
+        "offer-008"
+      ]
+    },
+    {
+      "profile": "Kitaristi, kiinnostus Lennon–McCartney -sävellyksiin",
+      "suggested_event_ids": [
+        "ev-009",
+        "ev-015",
+        "ev-017",
+        "ev-019"
+      ],
+      "suggested_offer_ids": [
+        "offer-007"
+      ]
+    },
+    {
+      "profile": "Beatles-hittien tanssija",
+      "suggested_event_ids": [
+        "ev-002",
+        "ev-005",
+        "ev-018",
+        "ev-020"
+      ],
+      "suggested_offer_ids": [
+        "offer-003",
+        "offer-008"
+      ]
+    }
+  ],
+  "assistant_instructions": {
+    "purpose": "Use these structured facts to plan a personalized Beatles cruise experience and to surface relevant demo offers.",
+    "language_policy": "Answer in the user's language; default Finnish.",
+    "rules": [
+      "Always tell the user that this is an invented demonstration, not an official 2027 event.",
+      "Use event starts_at, ends_at and venue_id exactly; do not invent event times, places, performers, prices, stock or booking links.",
+      "Filter offers by validity period, conditions, guest interest and alcohol preference.",
+      "Never imply an offer can be redeemed or a booking completed: demo only.",
+      "Avoid time conflicts when proposing an itinerary, including reasonable movement time between venues.",
+      "Disclose when performer participation in the hypothetical 2027 event is not confirmed.",
+      "Ask about preferences before recommending, or offer 2–3 tailored choices.",
+      "No unsolicited promotional messages. Only surface relevant deals when helpful to the user.",
+      "For accessibility, medical or safety-critical questions, refer to official staff and sources rather than guessing.",
+      "If a field is missing or uncertain, say so plainly."
+    ],
+    "suggested_user_prompts": [
+      "Olen Beatles-fani ja pidän erityisesti Abbey Roadista. Tee minulle lauantain ohjelma.",
+      "Olemme kahdestaan liikkeellä. Paras konsertti ja sopiva illallistarjous?",
+      "Mistä saan alkoholittoman Beatles-drinkin alle seitsemällä eurolla?",
+      "Etsi lauantain ohjelmasta päällekkäisyydet ja ehdota vaihtoehdot.",
+      "I love the early Beatles. Plan my Friday evening and find relevant offers.",
+      "Jag vill höra live-musik och hitta ett bra erbjudande. Vad rekommenderar du?"
+    ]
+  },
+  "integrations": {
+    "live_availability": false,
+    "payments": false,
+    "reservations": false,
+    "notifications_or_push_updates": false,
+    "last_updated": "2026-10-20",
+    "update_mechanism": "Static JSON demo. Any later refresh must be explicitly implemented by the client agent.",
+    "feed_url": null,
+    "versioning": "Increment schema_version for breaking changes; version or last_updated for content changes."
+  }
+}
