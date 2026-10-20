@@ -1,28 +1,28 @@
 {
   "schema_version": "1.0.0",
-  "dataset_id": "hbwcai-beatles-cruise-demo-2027",
+  "dataset_id": "beatles-ai-cruise-demo-2027",
   "data_type": "ai_readable_event_and_commerce_feed",
   "project": {
-    "name": "HBWCAI",
-    "tagline": "All You Need Is Love. And One Link.",
-    "description": "Helsinki Beatles Weekend -henkinen konseptidemo: yksi linkki tuo risteilyn ohjelman ja tarjonnan matkustajan omaan AI:hin.",
-    "concept": "AI-first guest information and offer feed, not a chatbot."
+    "name": "Beatles AI Cruise",
+    "tagline": "All You Need Is One Link.",
+    "description": "Kuvitteellinen Beatles AI Cruise -konseptidemo: yksi linkki tuo risteilyn ohjelman, tarjoukset ja tilat matkustajan omaan tekoälyyn.",
+    "concept": "AI-first guest information and offers feed, not a chatbot."
   },
   "demo_notice": {
     "is_demo": true,
     "status": "FICTIONAL_CONCEPT_NOT_A_REAL_CRUISE_PROGRAM",
-    "message_fi": "HUOM: Tämä on konseptidemo. Vuoden 2027 risteily, kaikki ohjelma-ajat, tilat, hinnat, tuotteet, tarjoukset ja esiintyjien 2027 osallistuminen ovat keksittyjä eikä niitä voi varata tai ostaa.",
-    "message_en": "DEMO ONLY. The 2027 event, all times, venues, prices, offers and 2027 performer appearances are fictional and cannot be booked or purchased.",
-    "not_official_viking_line_publication": true,
+    "message_fi": "KONSEPTIDEMO: Beatles AI Cruise 2027 on kuvitteellinen tapahtuma. Ohjelma, esiintyjät, alus, tilat, ajat, hinnat ja tarjoukset ovat esimerkkejä. Varauksia tai ostoja ei voi tehdä.",
+    "message_en": "CONCEPT DEMO: Beatles AI Cruise 2027 is fictional. All performers, vessel, venues, times, prices and offers are illustrative and are not bookable or purchasable.",
+    "not_official_cruise_line_publication": true,
     "not_official_beatles_publication": true,
     "commercial_offers_are_real": false
   },
   "event": {
-    "id": "hbw-beatles-cruise-vol6-demo-2027",
-    "name": "The Beatles Cruise Vol. 6 — HBWCAI DEMO",
-    "subtitle": "Enemmän Beatlesiä – Enemmän Rakkautta",
-    "description_fi": "Kuvitteellinen kolmen päivän Beatles-faniristeily Helsingistä Tukholmaan. Live-tributeja, Beatles-historiaa, Abbey Road -kuuntelua, fanitapaamisia, tietovisoja ja Beatles-aiheisia tarjouksia. Jokainen keskustelu voi muuttua henkilökohtaiseksi matkasuunnitelmaksi oman AI:n avulla.",
-    "description_en": "A fictional three-day Beatles fan cruise from Helsinki to Stockholm, with live tributes, Beatles history, Abbey Road listening sessions, fan meetups, quizzes and themed offers.",
+    "id": "beatles-ai-cruise-2027-demo",
+    "name": "Beatles AI Cruise 2027",
+    "subtitle": "All You Need Is One Link",
+    "description_fi": "Kuvitteellinen kolmipäiväinen Beatles AI Cruise Helsingistä Tukholmaan ja takaisin. Tribute-konsertteja, Abbey Road -kuuntelupiirejä, Beatles-tietovisoja, yhteislaulua, fanitapaamisia ja teematarjouksia. Oma tekoäly voi laatia matkustajalle henkilökohtaisen ohjelman.",
+    "description_en": "A fictional three-day Beatles AI Cruise from Helsinki to Stockholm and back, featuring tribute concerts, Abbey Road listening sessions, quizzes, singalongs, fan meetups and themed offers.",
     "category": [
       "music",
       "fan_cruise",
@@ -38,14 +38,14 @@
     "ends_at": "2027-09-26T16:00:00+03:00",
     "timezone": "Europe/Helsinki",
     "time_format": "ISO 8601, UTC+03:00 in all event entries; Stockholm local time is different.",
-    "ship": "Viking Cinderella (illustrative, NOT confirmed for 2027)",
+    "ship": "MV Northern Melody (fictional demo ship)",
     "route": [
       "Helsinki",
       "Stockholm",
       "Helsinki"
     ],
     "route_status": "fictional_demo",
-    "organizer_brand_inspiration": "Helsinki Beatles Weekend",
+    "organizer_brand_inspiration": "Beatles AI Cruise (fictional event concept)",
     "audience": [
       "Beatles fans",
       "music enthusiasts",
@@ -53,33 +53,11 @@
       "friend groups",
       "families"
     ],
-    "age_policy": "Oikeat ikärajat ja pääsyehdot tarkistettava matkanjärjestäjältä. Demo ei vahvista ikärajoja.",
+    "age_policy": "Ikärajat ja pääsyehdot ovat tässä kuvitteellisia eikä niitä ole vahvistettu.",
     "booking_url": null,
     "check_in_details": null,
-    "accessibility": "Todelliset esteettömyystiedot kysyttävä varustamolta.",
+    "accessibility": "Tämän demon tilat ja esteettömyystiedot ovat kuvitteellisia; tarkista oikeat tiedot mahdolliselta järjestäjältä.",
     "safety_note": "Turvallisuusohjeet, poikkeustilanteet ja laivan oikeat tilat: noudata miehistön ohjeita."
-  },
-  "historical_inspiration": {
-    "event": "Beatles-risteily Vol. 5",
-    "dates": [
-      "2026-09-25",
-      "2026-09-27"
-    ],
-    "ship": "Viking Cinderella",
-    "route": "Helsinki–Tukholma–Helsinki",
-    "performers_2026": [
-      "Jiri Nikkinen The Beatles Tribute Band",
-      "Jay Goeppner & The Urban Crow",
-      "The Beat Brothers",
-      "Hitmen Beatlemania"
-    ],
-    "special_guest_2026": "Freda Kelly",
-    "source_urls": [
-      "https://www.beatlesweekend.fi/en/",
-      "https://www.vikingline.fi/beatles",
-      "https://www.vikingline.ax/kryssning/nojeskryssningar/beatles-kryssning/"
-    ],
-    "note": "Vuoden 2026 lähdetieto ei ole vahvistus tulevasta vuoden 2027 ohjelmasta."
   },
   "places": [
     {
@@ -129,8 +107,8 @@
   ],
   "performers": [
     {
-      "id": "artist-jiri",
-      "name": "Jiri Nikkinen The Beatles Tribute Band",
+      "id": "artist-mersey-lights",
+      "name": "The Mersey Lights",
       "type": "tribute_band",
       "origin": "Finland",
       "genres": [
@@ -138,13 +116,13 @@
         "rock_and_roll",
         "merseybeat"
       ],
-      "historical_2026_participant": true,
+      "historical_2026_participant": false,
       "demo_2027_booking_confirmed": false,
-      "description": "Vuoden 2026 risteilyllä mukana ollut suomalainen Beatles-tribuuttiyhtye. Tässä vuoden 2027 konseptidemossa mukana vain havainnollistavana esiintyjänä."
+      "description": "Fiktiivinen varhaisten Beatles-vuosien Merseybeat-kappaleisiin keskittyvä tribuuttibändi."
     },
     {
-      "id": "artist-jay",
-      "name": "Jay Goeppner & The Urban Crow",
+      "id": "artist-penny-lane-players",
+      "name": "Penny Lane Players",
       "type": "tribute_band",
       "origin": "USA / Finland",
       "genres": [
@@ -152,13 +130,13 @@
         "rock",
         "vocal_harmonies"
       ],
-      "historical_2026_participant": true,
+      "historical_2026_participant": false,
       "demo_2027_booking_confirmed": false,
-      "description": "Vuoden 2026 tapahtuman esiintyjä; vuoden 2027 esiintyminen on kuvitteellinen demon osa."
+      "description": "Fiktiivinen lauluharmonioihin ja Beatlesin tunnettuihin klassikoihin keskittyvä yhtye."
     },
     {
-      "id": "artist-beatbrothers",
-      "name": "The Beat Brothers",
+      "id": "artist-northern-pepper",
+      "name": "Northern Pepper Ensemble",
       "type": "tribute_band",
       "origin": "Finland",
       "genres": [
@@ -166,13 +144,13 @@
         "dance",
         "1960s"
       ],
-      "historical_2026_participant": true,
+      "historical_2026_participant": false,
       "demo_2027_booking_confirmed": false,
-      "description": "Vuoden 2026 esiintyjä; demon vuoden 2027 esiintyminen ei ole vahvistettu."
+      "description": "Fiktiivinen studioaikakauden ja psykedeelisen popin tribuuttikokoonpano."
     },
     {
-      "id": "artist-hitmen",
-      "name": "Hitmen Beatlemania",
+      "id": "artist-lantern-beat",
+      "name": "The Lantern Beat Quartet",
       "type": "tribute_band",
       "origin": "Sweden",
       "genres": [
@@ -180,13 +158,13 @@
         "classic_pop",
         "rock"
       ],
-      "historical_2026_participant": true,
+      "historical_2026_participant": false,
       "demo_2027_booking_confirmed": false,
-      "description": "Vuoden 2026 risteilyn ruotsalainen esiintyjä; vuoden 2027 esiintyminen on demoon keksitty."
+      "description": "Fiktiivinen tanssittavia Beatles-hittejä soittava yhtye."
     },
     {
-      "id": "artist-hbwc-host",
-      "name": "HBWC Fan Club Host (demo)",
+      "id": "artist-cruise-host",
+      "name": "Beatles AI Cruise Host",
       "type": "host",
       "origin": "Finland",
       "genres": [
@@ -195,7 +173,7 @@
       ],
       "historical_2026_participant": false,
       "demo_2027_booking_confirmed": false,
-      "description": "Kuvitteellinen juontaja ja Beatles-tietovisojen vetäjä."
+      "description": "Fiktiivinen Beatles-tietovisojen, historiaesitysten ja fanitapaamisten juontaja."
     }
   ],
   "schedule": [
@@ -230,7 +208,7 @@
       "venue_id": "main-stage",
       "category": "concert",
       "artist_ids": [
-        "artist-beatbrothers"
+        "artist-northern-pepper"
       ],
       "price_eur": 0,
       "included_in_cruise": true,
@@ -276,7 +254,7 @@
       "venue_id": "cavern-club",
       "category": "quiz",
       "artist_ids": [
-        "artist-hbwc-host"
+        "artist-cruise-host"
       ],
       "price_eur": 0,
       "included_in_cruise": true,
@@ -300,7 +278,7 @@
       "venue_id": "main-stage",
       "category": "concert",
       "artist_ids": [
-        "artist-jiri"
+        "artist-mersey-lights"
       ],
       "price_eur": 0,
       "included_in_cruise": true,
@@ -370,7 +348,7 @@
       "venue_id": "abbey-lounge",
       "category": "talk",
       "artist_ids": [
-        "artist-hbwc-host"
+        "artist-cruise-host"
       ],
       "price_eur": 0,
       "included_in_cruise": true,
@@ -418,7 +396,7 @@
       "venue_id": "cavern-club",
       "category": "quiz",
       "artist_ids": [
-        "artist-hbwc-host"
+        "artist-cruise-host"
       ],
       "price_eur": 0,
       "included_in_cruise": true,
@@ -442,7 +420,7 @@
       "venue_id": "cavern-club",
       "category": "concert",
       "artist_ids": [
-        "artist-jay"
+        "artist-penny-lane-players"
       ],
       "price_eur": 0,
       "included_in_cruise": true,
@@ -489,7 +467,7 @@
       "venue_id": "abbey-lounge",
       "category": "fan_meet",
       "artist_ids": [
-        "artist-hbwc-host"
+        "artist-cruise-host"
       ],
       "price_eur": 0,
       "included_in_cruise": true,
@@ -602,7 +580,7 @@
       "venue_id": "main-stage",
       "category": "concert",
       "artist_ids": [
-        "artist-hitmen"
+        "artist-lantern-beat"
       ],
       "price_eur": 0,
       "included_in_cruise": true,
@@ -627,7 +605,7 @@
       "venue_id": "main-stage",
       "category": "concert",
       "artist_ids": [
-        "artist-jay"
+        "artist-penny-lane-players"
       ],
       "price_eur": 0,
       "included_in_cruise": true,
@@ -697,7 +675,7 @@
       "venue_id": "abbey-lounge",
       "category": "talk",
       "artist_ids": [
-        "artist-hbwc-host"
+        "artist-cruise-host"
       ],
       "price_eur": 0,
       "included_in_cruise": true,
@@ -721,7 +699,7 @@
       "venue_id": "cavern-club",
       "category": "quiz",
       "artist_ids": [
-        "artist-hbwc-host"
+        "artist-cruise-host"
       ],
       "price_eur": 0,
       "included_in_cruise": true,
@@ -745,8 +723,8 @@
       "venue_id": "main-stage",
       "category": "concert",
       "artist_ids": [
-        "artist-beatbrothers",
-        "artist-jiri"
+        "artist-northern-pepper",
+        "artist-mersey-lights"
       ],
       "price_eur": 0,
       "included_in_cruise": true,
@@ -1017,7 +995,7 @@
       "description": "Neljä fanimenuuta samaan yhteispöytään, demoetu ryhmälle.",
       "price": {
         "currency": "EUR",
-        "amount": 139.0,
+        "amount": 139,
         "regular_amount": 179.6,
         "per": "four_people",
         "vat_included": true
@@ -1042,7 +1020,7 @@
   "faq": [
     {
       "question": "Mitä Beatles-risteilyllä tapahtuu?",
-      "answer": "Kolmipäiväisessä kuvitteellisessa Beatles Cruise 2027 -risteilydemossa on tribute-konsertteja, historiaesityksiä, tietovisoja, kuuntelupiirejä, yhteislaulua ja Beatles-aiheisia ruoka- ja juomatarjouksia.",
+      "answer": "Kolmipäiväisessä kuvitteellisessa Beatles AI Cruise 2027 -risteilydemossa on tribute-konsertteja, historiaesityksiä, tietovisoja, kuuntelupiirejä, yhteislaulua ja Beatles-aiheisia ruoka- ja juomatarjouksia.",
       "source_type": "fictional_demo"
     },
     {
@@ -1062,7 +1040,7 @@
     },
     {
       "question": "Mistä tiedän oikeat hinnat ja saatavuuden?",
-      "answer": "Tämän demon tarjoukset eivät ole oikeasti myynnissä. Todelliset hinnat ja varaukset on tarkistettava järjestäjältä tai varustamolta.",
+      "answer": "Tämän demon tarjoukset eivät ole oikeasti myynnissä. Todelliset hinnat ja varaukset on tarkistettava mahdolliselta järjestäjältä.",
       "source_type": "safety_and_accuracy"
     },
     {
@@ -1176,7 +1154,7 @@
     "notifications_or_push_updates": false,
     "last_updated": "2026-10-20",
     "update_mechanism": "Static JSON demo. Any later refresh must be explicitly implemented by the client agent.",
-    "feed_url": null,
+    "feed_url": "https://raw.githubusercontent.com/villetinnila-rgb/HBWCAI/main/cruise.json",
     "versioning": "Increment schema_version for breaking changes; version or last_updated for content changes."
   }
 }
