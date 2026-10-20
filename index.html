@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#161922">
+<title>HBWCAI | The Beatles Cruise AI — Concept Demo</title>
+<style>
+:root{--bg:#14171e;--card:#202630;--stroke:#434c56;--cream:#fff4d4;--gold:#f6c56c;--pale:#c9c8c1;--coral:#ef8a7a;--mint:#a4d3b4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:ui-sans-serif,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--cream);line-height:1.55}
+a{color:var(--gold)}.wrap{max-width:1080px;padding:22px;margin:auto}
+.hero{background:radial-gradient(circle at 85% 0%,#504128 0%,transparent 43%),linear-gradient(125deg,#202633,#15181e);border-bottom:1px solid #41444c}
+.tiny{font-weight:750;letter-spacing:.16em;font-size:.78rem;color:var(--gold)}
+.badge{display:inline-block;border:1px solid #b78268;color:#f9ba9e;padding:5px 10px;border-radius:99px;font-size:.77rem;font-weight:700;letter-spacing:.08em}
+h1{font-size:clamp(2.8rem,9vw,5.7rem);line-height:1.04;letter-spacing:-.055em;margin:25px 0 16px;max-width:900px}
+h1 span{color:var(--gold)}h2{font-size:clamp(1.6rem,5vw,2.3rem);letter-spacing:-.03em;margin:42px 0 12px}
+.sub{font-size:clamp(1.05rem,3vw,1.4rem);max-width:700px;color:var(--pale)}.meta{display:flex;flex-wrap:wrap;gap:9px;margin:23px 0}
+.chip{border:1px solid var(--stroke);padding:8px 12px;border-radius:7px;color:#e3e0d6;background:#222731;font-size:.9rem}
+.actions{display:flex;flex-wrap:wrap;gap:9px;margin:23px 0 8px}
+button,.btn{cursor:pointer;padding:13px 17px;border-radius:8px;border:1px solid var(--gold);background:var(--gold);color:#201d15;text-decoration:none;font-weight:750;font-size:.94rem}
+button.secondary,.btn.secondary{background:transparent;color:var(--gold)}
+button:focus-visible,a:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.note{border-left:3px solid var(--coral);padding:10px 14px;background:#2a2228;color:#f4d8c8;font-size:.91rem;max-width:850px;margin-top:25px}
+.lead{font-size:1.06rem;color:var(--pale);max-width:760px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.tab{border-color:var(--stroke);background:#242a33;color:var(--cream)}.tab.active{background:var(--gold);border-color:var(--gold);color:#161922}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(265px,1fr));gap:13px}
+.tile{border:1px solid var(--stroke);background:var(--card);border-radius:12px;padding:18px;min-height:175px}
+.tile h3{margin:3px 0 8px;font-size:1.12rem;letter-spacing:-.015em}.tile .cat{color:var(--mint);font-size:.72rem;letter-spacing:.09em;font-weight:750;text-transform:uppercase}
+.tile p{color:#cccac4;font-size:.92rem;margin:7px 0 12px}.time{color:var(--gold);font-size:.91rem;font-weight:800}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}.tag{font-size:.72rem;background:#343c46;border-radius:4px;padding:3px 7px;color:#cbd1d3}
+.price{font-size:1.45rem;font-weight:850;color:var(--gold)}.strike{text-decoration:line-through;color:#989a9f;font-size:.88rem;margin-left:8px}
+footer{border-top:1px solid var(--stroke);color:#a5a9aa;margin-top:70px;padding:25px 0 35px;font-size:.83rem}
+#status{min-height:1.2em;color:var(--mint);font-size:.87rem}
+@media(max-width:600px){.wrap{padding:18px}.hero{padding-top:15px}button,.btn{width:100%;text-align:center}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<div class="tiny">HBWCAI / THE BEATLES CRUISE AI</div>
+<h1>All You Need Is Love.<br><span>And One Link.</span></h1>
+<p class="sub">Entä jos sinun oma tekoälysi tuntisi koko Beatles-risteilyn ohjelman ja löytäisi juuri sinulle sopivat keikat, fanitapaamiset ja tarjoukset?</p>
+<div class="meta"><span class="chip">🎸 Beatles-only</span><span class="chip">🚢 Helsinki – Tukholma – Helsinki</span><span class="chip">📅 24.–26.9.2027 (demo)</span><span class="chip">🤖 Your AI. Our data.</span></div>
+<div class="actions">
+<a id="json-link" class="btn" href="./cruise.json">Avaa AI-JSON</a>
+<button class="secondary" id="copy-link">Kopioi JSON-linkki</button>
+<button class="secondary" id="copy-prompt">Kopioi AI-testikehote</button>
+</div><div id="status" role="status" aria-live="polite"></div>
+<p class="note"><strong>KONSEPTIDEMO:</strong> Vuoden 2027 tapahtuma, ohjelma, tarjoukset, hinnat, artistivaraukset ja tilat ovat keksittyjä. Ei virallinen Viking Linen tai Helsinki Beatles Weekendin ilmoitus.</p>
+</div></header>
+<main class="wrap">
+<h2>One link. Your personal AI.</h2>
+<p class="lead">Ei erillistä chatbottia. Julkaistaan yksi rakenteinen tieto-osoite ja matkustaja voi jakaa sen omalle AI:lleen. AI pystyy käyttämään ohjelman ajankohtia, esiintyjiä, kiinnostustageja ja tarjousten ehtoja — jos se osaa lukea linkin.</p>
+<h2>🎤 Beatles-ohjelma</h2>
+<div class="tabs" role="group" aria-label="Valitse päivä">
+<button class="tab active" data-date="2027-09-24">Pe 24.9.</button>
+<button class="tab" data-date="2027-09-25">La 25.9.</button>
+<button class="tab" data-date="2027-09-26">Su 26.9.</button>
+</div>
+<div class="grid" id="events"><p>Ladataan ohjelmaa...</p></div>
+<h2>🍓 Beatles-tarjoukset</h2><p class="lead">Sgt. Pepper's -illallinen, Strawberry Fields -cocktail, Penny Lane Lemonade, Yellow Submarine -mocktail ja paljon muuta. Kaikki ovat demotuotteita.</p>
+<div class="grid" id="offers"></div>
+<h2>💬 Kokeile omalla AI:lla</h2>
+<p class="lead">Kopioi yllä oleva JSON-linkki ja anna se ChatGPT:lle, Claudelle tai Grokille. Pyydä esimerkiksi: <em>“Rakastan Abbey Roadia, haluan kuulla kaksi keikkaa ja nauttia hyvän illallisen. Tee lauantaille ohjelma ja poimi sopivat tarjoukset.”</em></p>
+<p class="note">Huomaa: eri AI-palvelut lukevat julkisia linkkejä eri tavoin. QR-koodi ei yksin liitä tietolähdettä pysyvästi AI:hin. Palvelu ei tee varauksia tai lähetä ilmoituksia.</p>
+</main>
+<footer><div class="wrap">HBWCAI — AI-era customer information & discovery concept. Historical inspiration: <a href="https://www.beatlesweekend.fi/en/">Helsinki Beatles Weekend</a>. Fictional demo; all offers are examples.</div></footer>
+<script>
+const $ = id => document.getElementById(id);
+const jsonURL = new URL('./cruise.json', location.href).href;
+const copyText = async text => {
+ try{await navigator.clipboard.writeText(text);$('status').textContent='Kopioitu leikepöydälle!';}
+ catch(e){$('status').textContent='Kopiointi estetty. Avaa JSON-linkki ja kopioi selaimen osoite.';}
+};
+$('copy-link').addEventListener('click',()=>copyText(jsonURL));
+$('copy-prompt').addEventListener('click',()=>copyText('Lue tämä Beatles Cruise -konseptidemon JSON: '+jsonURL+' . Rakastan Abbey Roadia, haluan kuulla kaksi keikkaa ja nauttia hyvän illallisen. Tee minulle lauantain suunnitelma, huomioi aikatauluristiriidat ja poimi sopivat tarjoukset. Kerro selvästi että tämä on kuvitteellinen demo.'));
+let feed = null;
+let chosen = '2027-09-24';
+const el = (tag, cls, val) => {
+ const n=document.createElement(tag);
+ if(cls)n.className=cls;
+ if(val!==undefined)n.textContent=val;
+ return n;
+};
+function render(){
+ if(!feed)return;
+ const byId=Object.fromEntries(feed.places.map(v=>[v.id,v.name]));
+ $('events').replaceChildren(...feed.schedule.filter(x=>x.starts_at.startsWith(chosen)).map(e=>{
+   const card=el('article','tile');
+   card.append(el('div','time',e.starts_at.slice(11,16)+'–'+e.ends_at.slice(11,16)),el('h3','',e.title),el('div','cat',byId[e.venue_id]||'Demo-tila'),el('p','',e.description));
+   const tags=el('div','tags');
+   e.tags.slice(0,3).forEach(t=>tags.append(el('span','tag',t.replaceAll('_',' '))));
+   card.append(tags);return card;
+ }));
+}
+document.querySelectorAll('[data-date]').forEach(b=>b.addEventListener('click',()=>{
+ chosen=b.dataset.date;document.querySelectorAll('[data-date]').forEach(x=>x.classList.toggle('active',x===b));render();
+}));
+fetch('./cruise.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{
+ feed=d;render();
+ $('offers').replaceChildren(...d.offers.map(o=>{
+   const box=el('article','tile');
+   box.append(el('div','cat',o.category.replaceAll('_',' ')),el('h3','',o.title),el('p','',o.description));
+   const p=el('div','price',o.price.amount.toFixed(2).replace('.',',')+' €');
+   if(o.price.regular_amount)p.append(el('span','strike',o.price.regular_amount.toFixed(2).replace('.',',')+' €'));
+   box.append(p,el('div','tags','Kuvitteellinen tarjous · '+o.price.per.replaceAll('_',' ')));
+   return box;
+ }));
+}).catch(err=>{$('events').textContent='JSON-dataa ei saatu ladattua. Avaa tämä sivu palvelimelta, ei paikallisena file://-tiedostona. ('+err.message+')';});
+</script>
+</body>
+</html>
